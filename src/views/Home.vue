@@ -1,13 +1,21 @@
 <template>
   <div class="home">
     <!-- Header component -->
-    <Header />
+    <div class="header__container">
+      <Header />
+    </div>
     <!-- Main title component -->
-    <MainTitle />
+    <div class="maintitle__container">
+      <MainTitle />
+    </div>
     <!-- Button group component -->
-    <ButtonBlock />
+    <div class="button__grp__container">
+      <ButtonBlock />
+    </div>
     <!-- Footer component -->
-    <Footer />
+    <div class="footer__container">
+      <Footer />
+    </div>
   </div>
 </template>
 <script>
@@ -26,3 +34,10 @@ export default {
   },
 };
 </script>
+<style scoped>
+.home {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+</style>
