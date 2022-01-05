@@ -5,7 +5,11 @@
         <button>Add to Firefox</button>
       </div>
       <div class="button__container">
-        <button>How to use</button>
+        <button>
+          <router-link class="router-link" to="/usageinfo"
+            >How to use</router-link
+          >
+        </button>
       </div>
     </div>
   </div>
@@ -40,6 +44,9 @@ export default {
     font-size: 13.5pt;
     font-family: "Source Code Pro", monospace;
   }
+  .router-link {
+    color: var(--secondary-text-color);
+  }
 }
 
 /* for large screens */
@@ -63,6 +70,9 @@ export default {
     height: 3.688rem;
     font-size: 18pt;
     font-family: "Source Code Pro", monospace;
+  }
+  .router-link {
+    color: var(--secondary-text-color);
   }
 }
 </style>
