@@ -20,10 +20,10 @@
 </template>
 <script>
 // @ is an alias to /src
-import Header from "@/components/Header.vue";
-import MainTitle from "@/components/MainTitle.vue";
-import ButtonBlock from "@/components/ButtonBlock.vue";
-import Footer from "@/components/Footer.vue";
+import Header from "@/components/Homepage/Header.vue";
+import MainTitle from "@/components/Homepage/MainTitle.vue";
+import ButtonBlock from "@/components/Homepage/ButtonBlock.vue";
+import Footer from "@/components/Homepage/Footer.vue";
 export default {
   name: "Home",
   components: {
