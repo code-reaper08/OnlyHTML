@@ -13,7 +13,7 @@
   --button-bg-color: #ffb000;
 }
 #app {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--main-bg-color);
   font-family: "Source Code Pro", monospace;
 }

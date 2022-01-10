@@ -36,7 +36,8 @@ export default {
 </script>
 <style scoped>
 .home {
-  padding: 1rem;
+  height: 100vh;
+  padding: 0.5rem 1rem 0rem 1rem;
   display: flex;
   flex-direction: column;
 }
