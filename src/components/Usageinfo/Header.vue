@@ -1,22 +1,27 @@
 <template>
   <div class="header__wrapper">
     <div class="header__container">
-      <div class="left__title">
-        <div class="title__and__version">
-          <h1 class="main__title">OnlyHTML</h1>
-          <span class="version__no">v1.0.0</span>
+      <router-link to="/">
+        <div class="left__title">
+          <div class="title__and__version">
+            <h1 class="main__title">OnlyHTML</h1>
+            <span class="version__no">v1.0.0</span>
+          </div>
         </div>
-      </div>
+      </router-link>
       <div class="right__button">
         <div class="button__container">
-          <button>
-            <div class="text__content">
-              <p>[Star] & [Fork]</p>
-            </div>
-            <div class="icon__container">
-              <img src="@/assets/gh-icon.png" alt="github-icon" />
-            </div>
-          </button>
+          <a
+            href="https://github.com/code-reaper08/OnlyHTML/tree/main"
+            target="_blank"
+            ><button>
+              <div class="text__content">
+                <p>[Star] & [Fork]</p>
+              </div>
+              <div class="icon__container">
+                <img src="@/assets/gh-icon.png" alt="github-icon" />
+              </div></button
+          ></a>
         </div>
       </div>
     </div>
@@ -60,6 +65,7 @@ export default {
     font-size: 18pt;
     width: 19rem;
     height: 4rem;
+    cursor: pointer;
   }
 }
 /* for large screens */
@@ -92,6 +98,7 @@ export default {
     font-size: 18pt;
     width: 19rem;
     height: 4rem;
+    cursor: pointer;
   }
 }
 </style>

@@ -7,14 +7,23 @@
       </p>
       <ol class="list__group norm__text">
         <li>
-          In this repository navigate to Firfox/onlyhtml-1.0-fx.xpi or click
-          <a href="#">[here]</a>.
+          In
+          <a target="_blank" href="https://github.com/code-reaper08/OnlyHTML/"
+            >[this]</a
+          >
+          repository navigate to <code>Firfox/onlyhtml-1.0-fx.xpi</code> or
+          click
+          <a
+            target="_blank"
+            href="https://github.com/code-reaper08/OnlyHTML/blob/main/Firefox/onlyhtml-1.0-fx.xpi"
+            >[here]</a
+          >.
         </li>
         <li>Click on the <strong>Download</strong> button.</li>
         <img src="@/assets/image3.png" alt="download-button" />
         <li>
           Open <strong>Add-ons and Themes</strong> menu or press
-          <strong>Ctrl+Shift+A</strong>
+          <strong><code>Ctrl+Shift+A</code></strong>
         </li>
         <img src="@/assets/image4.png" alt="menu-screenshot" />
         <li>
@@ -75,6 +84,10 @@ export default {
   }
   img {
     margin: 1rem 0rem 0rem -2.7rem;
+  }
+  code {
+    background: darkslategray;
+    padding: 0.2rem;
   }
 }
 </style>

@@ -6,8 +6,9 @@
     </div>
     <div class="subtitle">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ex
-        quibusdam error amet atque
+        An open-source extension for Chrome and Firefox to remove the CSS of a
+        webpage. OnlyHTML add-on does exactly the same with a single click. No
+        extra settings, no extra clicks, see only the HTML in all it's glory!
       </p>
     </div>
   </div>
@@ -50,7 +51,7 @@ export default {
   }
   .subtitle > p {
     color: var(--subtitle-text-color);
-    font-size: 13.5pt;
+    font-size: 8pt;
     line-height: 30.17px;
   }
 }
@@ -85,7 +86,7 @@ export default {
   }
   .subtitle > p {
     color: var(--subtitle-text-color);
-    font-size: 18pt;
+    font-size: 10pt;
     line-height: 30.17px;
   }
 }

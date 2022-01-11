@@ -2,14 +2,19 @@
   <div class="block__wrapper">
     <div class="button__grp__wrapper">
       <div class="button__container">
-        <button>Add to Firefox</button>
+        <a
+          href="https://addons.mozilla.org/firefox/downloads/file/3885904/onlyhtml-1.0-fx.xpi"
+        >
+          <button>
+            Add to Firefox
+            <p class="btn__sub__txt">[Click this when you are on Firefox]</p>
+          </button>
+        </a>
       </div>
       <div class="button__container">
-        <button>
-          <router-link class="router-link" to="/usageinfo"
-            >How to use</router-link
-          >
-        </button>
+        <router-link class="router-link" to="/usageinfo">
+          <button>How to use</button>
+        </router-link>
       </div>
     </div>
   </div>
@@ -43,9 +48,16 @@ export default {
     height: 2.969rem;
     font-size: 13.5pt;
     font-family: "Source Code Pro", monospace;
+    cursor: pointer;
   }
   .router-link {
     color: var(--secondary-text-color);
+  }
+  .btn__sub__txt {
+    /* color: var(--subtitle-text-color); */
+    font-size: 5pt;
+    font-weight: 200;
+    /* display: none; */
   }
 }
 
@@ -70,9 +82,16 @@ export default {
     height: 3.688rem;
     font-size: 18pt;
     font-family: "Source Code Pro", monospace;
+    cursor: pointer;
   }
   .router-link {
     color: var(--secondary-text-color);
+  }
+  .btn__sub__txt {
+    /* color: var(--subtitle-text-color); */
+    font-size: 7pt;
+    font-weight: 700;
+    /* display: none; */
   }
 }
 </style>

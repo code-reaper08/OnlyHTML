@@ -2,7 +2,11 @@
   <div class="footer__container">
     <div class="footer__wrapper">
       <p class="footer__content">Made with [love!] by</p>
-      <span class="gh-profile-link"> <a href="#">code-reaper08</a></span>
+      <span class="gh-profile-link">
+        <a href="https://github.com/code-reaper08" target="_blank"
+          >code-reaper08</a
+        ></span
+      >
     </div>
   </div>
 </template>

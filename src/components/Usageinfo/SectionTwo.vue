@@ -6,7 +6,15 @@
       </p>
       <ol class="list__group norm__text">
         <li>
-          <p>Head over <a href="#">[here]</a> using Firefox.</p>
+          <p>
+            Head over
+            <a
+              target="_blank"
+              href="https://addons.mozilla.org/en-US/firefox/addon/onlyhtml/"
+              >[here]</a
+            >
+            using Firefox.
+          </p>
         </li>
         <li>
           <p>Click on <strong>Add to Firefox</strong> Button.</p>
