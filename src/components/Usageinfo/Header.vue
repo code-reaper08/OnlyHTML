@@ -50,11 +50,11 @@ export default {
     justify-content: center;
   }
   .main__title {
-    font-size: 36pt;
+    font-size: 16pt;
     color: var(--primary-text-color);
   }
   .version__no {
-    font-size: 18pt;
+    font-size: 8pt;
     color: var(--ternary-text-color);
   }
   button {
@@ -62,10 +62,14 @@ export default {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 18pt;
-    width: 19rem;
-    height: 4rem;
+    font-size: 10pt;
+    width: 10rem;
+    height: 2rem;
     cursor: pointer;
+  }
+  img {
+    width: 50%;
+    height: auto;
   }
 }
 /* for large screens */

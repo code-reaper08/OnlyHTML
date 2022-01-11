@@ -38,6 +38,41 @@ export default {
 <style scoped>
 /* for small screens */
 @media (max-width: 576px) {
+  .grid__container {
+    display: grid;
+    padding: 1rem 1rem;
+    /* grid-template-rows: 1fr;
+    grid-template-columns: 1fr; */
+  }
+  .left__container {
+    width: 100%;
+    /* display: flex; */
+    margin-top: 2rem;
+    /* flex-direction: column;
+    align-items: unset;
+    justify-self: center; */
+  }
+  .right__container {
+    /* grid-column-start: 2;
+    grid-row-start: 3; */
+    /* width: 48.188rem;
+    height: 30.438rem; */
+    margin-top: 2rem;
+  }
+  .primary__heading {
+    font-size: 36pt;
+    padding-bottom: 2rem;
+    color: var(--ternary-text-color);
+  }
+  .norm__text {
+    font-size: 13.5pt;
+    color: var(--subtitle-text-color);
+  }
+  .subtitle__text {
+    font-size: 27pt;
+    padding-bottom: 2rem;
+    color: var(--button-bg-color);
+  }
 }
 /* for large screens */
 @media (min-width: 992px) {

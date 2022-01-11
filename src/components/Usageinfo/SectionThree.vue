@@ -20,7 +20,7 @@
           >.
         </li>
         <li>Click on the <strong>Download</strong> button.</li>
-        <img src="@/assets/image3.png" alt="download-button" />
+        <img id="dwnld__btn" src="@/assets/image3.png" alt="download-button" />
         <li>
           Open <strong>Add-ons and Themes</strong> menu or press
           <strong><code>Ctrl+Shift+A</code></strong>
@@ -57,6 +57,39 @@ export default {
 <style scoped>
 /* for small screens */
 @media (max-width: 576px) {
+  .main__wrapper {
+    margin-top: 5rem;
+    /* width: 56.5rem; */
+    padding: 1rem 1rem;
+  }
+  .list__group {
+    padding-left: 3rem;
+  }
+  .primary__heading {
+    font-size: 36pt;
+    padding-bottom: 2rem;
+    color: var(--ternary-text-color);
+  }
+  .norm__text {
+    font-size: 13.5pt;
+    color: var(--subtitle-text-color);
+  }
+  .subtitle__text {
+    font-size: 27pt;
+    padding-bottom: 2rem;
+    color: var(--button-bg-color);
+  }
+  img {
+    margin: 1rem 0rem 0rem -2.7rem;
+    width: 100%;
+  }
+  #dwnld__btn {
+    width: 50%;
+  }
+  code {
+    background: darkslategray;
+    padding: 0.2rem;
+  }
 }
 /* for large screens */
 @media (min-width: 992px) {

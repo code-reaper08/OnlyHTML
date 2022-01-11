@@ -44,6 +44,31 @@ export default {
 <style scoped>
 /* for small screens */
 @media (max-width: 576px) {
+  .main__wrapper {
+    /* width: 56.5rem; */
+    padding: 1rem 1rem;
+  }
+  .list__group {
+    padding-left: 3rem;
+  }
+  .primary__heading {
+    font-size: 36pt;
+    padding-bottom: 2rem;
+    color: var(--ternary-text-color);
+  }
+  .norm__text {
+    font-size: 13.5pt;
+    color: var(--subtitle-text-color);
+  }
+  .subtitle__text {
+    font-size: 27pt;
+    padding-bottom: 2rem;
+    color: var(--button-bg-color);
+  }
+  img {
+    margin: 1rem 0rem 0rem -2.7rem;
+    width: 100%;
+  }
 }
 /* for large screens */
 @media (min-width: 992px) {
