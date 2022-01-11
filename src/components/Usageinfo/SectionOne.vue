@@ -6,18 +6,23 @@
         <p class="norm__text">
           OnlyHTML browser extension is developed for both Chrome and Firefox,
           although Chrome version is not yet avaliable in the chrome web store
+          <br />
+          <br />
           Firefox add-on is successfully verified and available on the official
           Firefox add-on page
         </p>
       </div>
       <div class="right__container">
-        <p class="primary__heading">Available for</p>
+        <p class="primary__heading">Steps for using the extension</p>
         <p class="subtitle__text">For Firefox</p>
         <p class="norm__text">
-          OnlyHTML browser extension is developed for both Chrome and Firefox,
-          although Chrome version is not yet avaliable in the chrome web store
-          Firefox add-on is successfully verified and available on the official
-          Firefox add-on page
+          There are two ways for you to use the Firefox add-on,
+          <br />
+          <br />
+          1. Adding to your browser from onlyhtml- Firefox add-on official site.
+          <br />
+          2. Manually installing using the .xpi file available in this
+          repository.
         </p>
       </div>
     </div>
@@ -42,9 +47,20 @@ export default {
     grid-template-rows: 3fr 0fr 3fr;
     grid-template-columns: repeat(2, 1fr);
   }
+  .left__container {
+    width: 90%;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: unset;
+    /* justify-self: center; */
+  }
   .right__container {
     grid-column-start: 2;
     grid-row-start: 3;
+    width: 48.188rem;
+    height: 30.438rem;
+    margin-top: -12.5rem;
   }
   .primary__heading {
     font-size: 48pt;
