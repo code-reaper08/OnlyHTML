@@ -12,6 +12,8 @@ _Strip the CSS!_
 <div align="center">
   
 ### OnlyHTML is an Open-Source browser extension to view, only the HTML of the webpage.
+  
+[![GitHub issues](https://img.shields.io/github/issues/code-reaper08/OnlyHTML?style=for-the-badge)](https://github.com/code-reaper08/OnlyHTML/issues) [![GitHub forks](https://img.shields.io/github/forks/code-reaper08/OnlyHTML?style=for-the-badge)](https://github.com/code-reaper08/OnlyHTML/network) [![GitHub stars](https://img.shields.io/github/stars/code-reaper08/OnlyHTML?style=for-the-badge)](https://github.com/code-reaper08/OnlyHTML/stargazers) [![GitHub license](https://img.shields.io/github/license/code-reaper08/OnlyHTML?style=for-the-badge)](https://github.com/code-reaper08/OnlyHTML/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/code-reaper08/OnlyHTML?style=for-the-badge) ![Mozilla Add-on](https://img.shields.io/amo/v/OnlyHTML?style=for-the-badge) ![Website](https://img.shields.io/website?down_color=lightgreay&down_message=offline&style=for-the-badge&up_color=blue&up_message=online&url=https%3A%2F%2Fonlyhtmlofficial.netlify.app%2F) ![GitHub last commit](https://img.shields.io/github/last-commit/code-reaper08/OnlyHTML?style=for-the-badge)
 </div>
 
 ## What it does?
