@@ -1,7 +1,10 @@
 <div align="center">
   
 # OnlyHTML
-![icon128](https://user-images.githubusercontent.com/64256342/147130130-17d6c8e1-7a7f-4d74-8bdf-688076cae968.png)
+  <a href="https://onlyhtmlofficial.netlify.app/">
+    
+  ![icon128](https://user-images.githubusercontent.com/64256342/147130130-17d6c8e1-7a7f-4d74-8bdf-688076cae968.png)
+  </a>
   <br>
 _Strip the CSS!_
 </div>
